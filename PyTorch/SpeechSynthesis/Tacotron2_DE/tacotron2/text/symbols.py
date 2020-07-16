@@ -28,5 +28,5 @@ _arpabet = ['@' + s for s in cmudict.valid_symbols]
 #symbols = [_pad] + list(_special) + list(_punctuation) + list(_letters) + _arpabet
 
 #german
-symbols = [_pad] + list(_special) + list(_punctuation) + list(_letters) + list(_digits)
+symbols = [_pad] + list(_special) + list(_punctuation) + list(_letters) #+ list(_digits)
 
